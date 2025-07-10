@@ -64,4 +64,23 @@ header {
     margin-top: 37px;
     
 }
-
+.all-action {
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 145px;
+    align-items: center;
+}
+.action-head {
+    padding: 10px 0;
+    font-size: 42px;
+    color: #252432;
+}
+.action-para {
+     padding: 10px 0;
+     font-size: 18px;
+     color: #25243287;
+}
+.action-img {
+    width: 400px;
+    border-radius: 48px;
+}
