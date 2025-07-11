@@ -58,7 +58,7 @@ header {
 }
 .banner p {
     font-size: 65px;
-    font-weight: 500;
+    font-weight: 700;
     color: #252432;
 }
 .stay {
@@ -239,4 +239,39 @@ textarea {
     border-radius: 10px;
     cursor: pointer;
     box-shadow: 7px 6px 8px -4px #20015f;
+}
+footer {
+     background-color: rgba(255, 249, 249, 0.847);
+     border-top: 1px solid #F2EDED;
+     width: 1280px;
+     height: 250px;
+     text-align: center;
+}
+.footer-text h2 {
+    color: #4E47FF;
+    font-size: 100px;
+    font-weight: 700;
+}
+.footer-text p {
+    color: #8987A1;
+
+}
+nav  {
+    text-align: center;
+    margin-top: 20px;
+}
+/* ul {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+} */
+ ul li {
+    list-style: none;
+    display: inline;
+    margin-right: 25px;    
+ }
+
+nav ul li a {
+    text-decoration: none;
+    color: #8987A1;
 }
