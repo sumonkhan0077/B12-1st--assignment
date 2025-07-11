@@ -194,3 +194,49 @@ header {
     border: none;
     border-radius: 48px;
 }
+.form {
+    display: flex;
+    justify-content: space-between;
+    width: 1140px;
+    height: 632px;
+    margin:  116px 80px;
+    align-items: center;
+}
+.form-text {
+    font-size: 190px;
+    font-weight: 500;
+    
+}
+input[type=text], input[type=email], textarea {
+    padding: 30px 230px 30px 20px;
+    border: 1px solid  #F2EDED ;
+    background-color: rgba(232, 252, 255, 0.625);
+    border-radius: 10px;
+    margin: 8px 0;
+}
+textarea {
+    padding: 50px 230px 50px 20px;
+}
+.get-in {
+    background-color: #4E47FF;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 12px 150px;
+    margin: 0 7px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.get-in:hover {
+    background-color: #4E47FF;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 12px 150px;
+    margin: 0 7px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 7px 6px 8px -4px #20015f;
+}
