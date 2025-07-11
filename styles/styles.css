@@ -17,6 +17,7 @@ header {
     background-image: url(../Assets/Hero-bg.png);
     width: 1260px;
     height: 700px;
+    margin: 0 auto;
 }
 .nav {
     padding: 50px 150px;
