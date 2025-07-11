@@ -15,7 +15,7 @@
 }
 header {
     background-image: url(../Assets/Hero-bg.png);
-    width: 1280px;
+    width: 1260px;
     height: 700px;
 }
 .nav {
@@ -68,7 +68,7 @@ header {
 .all-action {
     display: flex;
     justify-content: space-between;
-    margin: 80px ;
+    margin: 80px auto ;
     width: 1140px;
     height: 328px;
     align-items: center;
@@ -197,13 +197,13 @@ header {
 .form {
     display: flex;
     justify-content: space-between;
-    width: 1140px;
+    max-width: 1140px;
     height: 632px;
     margin:  116px 80px;
     align-items: center;
 }
 .form-text {
-    font-size: 190px;
+    font-size: 160px;
     font-weight: 500;
     
 }
@@ -243,7 +243,7 @@ textarea {
 footer {
      background-color: rgba(255, 249, 249, 0.847);
      border-top: 1px solid #F2EDED;
-     width: 1280px;
+     max-width: 1260px;
      height: 250px;
      text-align: center;
 }
@@ -254,23 +254,16 @@ footer {
 }
 .footer-text p {
     color: #8987A1;
-
 }
 nav  {
     text-align: center;
     margin-top: 20px;
 }
-/* ul {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-} */
- ul li {
+ul li {
     list-style: none;
     display: inline;
     margin-right: 25px;    
  }
-
 nav ul li a {
     text-decoration: none;
     color: #8987A1;
